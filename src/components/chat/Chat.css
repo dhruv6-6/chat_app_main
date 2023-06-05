@@ -1,0 +1,25 @@
+ .outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1A1A1D;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 420px;
+    width: 420px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+    .container {
+      height: 320px;
+      width: 320px;
+    }
+  }
