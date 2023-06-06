@@ -1,12 +1,11 @@
 import React ,{ useState , useEffect} from "react";
-import {useSearchParams} from "react-router-dom"
+import {useSearchParams } from "react-router-dom"
 import io from 'socket.io-client';
 
 import './Chat.css';
 import InfoBar from '../infoBar/InfoBar';
 import Input from '../input/Input';
 import Messages from '../messages/Messages';
-
 
 let socket;
 
